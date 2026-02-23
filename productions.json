@@ -1,0 +1,321 @@
+[
+    {
+        "id": 1,
+        "tag": "Communication",
+        "text_preview": "Création de l'évènement et de la communication de La Nuit MMI 2026.",
+        "image": "assets/Productions/Communication/Nuit MMI/Design eco-cup.png",
+        "Nom_du_projet": "La Nuit MMI",
+        "description": "La Nuit MMI est un événement annuel organisé par les étudiants du BUT MMI de l'IUT de Lens. Cette année, j'ai eu la chance de travailler sur l'édition 2026 avec mon équipe. J'ai été chargé de gérer les posts réseaux sociaux ainsi que l'identité visuelle de cet évènement d'envergure regroupant environ 200 personnes le temps d'une soirée. Ce projet a été très formateur en termes de gestion des contraintes temporelles, de communication évènementielle et de gestion de projet.",
+        "logiciels": [
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "Meta Business Suite"
+        ],
+        "annee": "2025-2026",
+        "galerie": [
+            {
+                "src": "assets/Productions/Communication/Nuit MMI/Nuit mmi affiche.jpg",
+                "caption": "Affiche officielle"
+            },
+            {
+                "src": "assets/Productions/Communication/Nuit MMI/Screen profil insta.png",
+                "caption": "Feed Instagram"
+            },
+            {
+                "src": "assets/Productions/Communication/Nuit MMI/stories compte insta.png",
+                "caption": "Stories"
+            },
+            {
+                "src": "assets/Productions/Communication/Nuit MMI/affiche post nuit mmi inscription.png",
+                "caption": "Affiche 'Ouverture du site'"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "tag": "Communication",
+        "text_preview": "Création d'un évènement fictif centré autour de la culture hip-hop.",
+        "image": "assets/Productions/Communication/Sample Days/Bordeaux.png",
+        "Nom_du_projet": "Sample Days",
+        "description": "Les 'Samples Days' est un événement fictif créé dans le cadre d'un projet universitaire. Ce projet consistait à créer un évènement autour de la culture hip-hop, en imaginant à la fois l'identité visuelle correspondant au thème imposé, mais aussi l'aspect évènementiel (recherche de structure, d'activités...) afin de créer un ensemble cohérent et complet.",
+        "logiciels": [
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "Canva",
+            "Figma"
+        ],
+        "annee": "2025",
+        "galerie": [
+            {
+                "src": "assets/Productions/Communication/Sample Days/Bannière RS SampleDays.jpg",
+                "caption": "Bannière réseaux sociaux"
+            },
+            {
+                "src": "assets/Productions/Communication/Sample Days/CP SAMPLE DAYS.png",
+                "caption": "Communiqué de presse"
+            },
+            {
+                "src": "assets/Productions/Communication/Sample Days/Sample Days cup.jpg",
+                "caption": "Mockup"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "tag": "Communication",
+        "text_preview": "Rebranding fictif de la compagnie aérienne Ryanair.",
+        "image": "assets/Productions/Communication/Rebranding Ryanair/Affiche RYANAIR finale.jpg",
+        "Nom_du_projet": "Rebranding Ryanair",
+        "description": "L'objectif de ce projet universitaire fictif était de rebrander la compagnie aérienne Ryanair afin de changer drastiquement son image de marque actuelle. J'ai donc dû repenser complètement son identité visuelle, en créant un nouveau logo, en utilisant de nouvelles couleurs, une nouvelle typographie et de nouvelles valeurs.",
+        "logiciels": [
+            "Adobe Photoshop",
+            "Adobe Illustrator"
+        ],
+        "annee": "2025",
+        "galerie": [
+            {
+                "src": "assets/Productions/Communication/Rebranding Ryanair/facebook cover & mockup.png",
+                "caption": "Page Facebook"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "tag": "Communication",
+        "text_preview": "Création d'une double-page A4 pour le magazine de Loos-en-Gohelle.",
+        "image": "assets/Productions/Communication/SAE Loos-en-Gohelle/Écho Loosois.jpg",
+        "Nom_du_projet": "Écho Loosois",
+        "description": "Ce projet universitaire consistait à créer une double-page A4 pour présenter le bilan économique et les investissements de la commune de Loos-en-Gohelle sur l'année 2025. La mise en page devait respecter la charte graphique de la ville mais le format était libre.",
+        "logiciels": [
+            "Adobe InDesign",
+            "Adobe Illustrator"
+        ],
+        "annee": "2026"
+    },
+    {
+        "id": 5,
+        "tag": "Communication",
+        "text_preview": "Création d'une couverture de livre présentant une célébrité.",
+        "image": "assets/Productions/Communication/Lebron James.png",
+        "Nom_du_projet": "Lebron James",
+        "description": "Ce projet universitaire fictif consistait créer la 1ère et la 4ème de couverture d'un livre présentant la biographie de la célébrité de notre choix. Ce projet m'a appris à travailler sur des formats de documents spécifiques et à gérer des contraintes techniques liées à l'impression.",
+        "logiciels": [
+            "Adobe Photoshop",
+            "Adobe Illustrator"
+        ],
+        "annee": "2025",
+        "galerie": [
+            {
+                "src": "assets/Productions/Communication/Mockup LJ.jpg",
+                "caption": "Mockup"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "tag": "Audiovisuel",
+        "text_preview": "Montage dynamique présentant l'IUT de Lens.",
+        "image": "assets/Productions/Audiovisuel/IUT_Interview/Montage IUT.mp4",
+        "Nom_du_projet": "Bienvenue à l'IUT de Lens",
+        "description": "Ce projet visait à créer une vidéo présentant notre quotidien d'étudiants à l'IUT de Lens de manière dynamique. Il m'a permis de renforcer mes compétences en prise d'images et en montage vidéo et audio.",
+        "logiciel": [
+            "Adobe Premiere Pro"
+        ],
+        "annee": "2025"
+    },
+    {
+        "id": 7,
+        "tag": "Audiovisuel",
+        "text_preview": "Montage d'une séquence de film d'horreur.",
+        "image": "assets/Productions/Audiovisuel/Montage chase.mp4",
+        "Nom_du_projet": "Rencontre dangereuse",
+        "description": "Ce projet m'a permis de travailler sur le montage audio et vidéo d'une séquence de film d'horreur, à partir de plans qui nous avaient été fournis au préalable. J'ai pu travailler sur l'étalonnage des couleurs pour créer une concordance entre les plans.",
+        "logiciels": [
+            "Adobe Premiere Pro"
+        ],
+        "annee": "2025"
+    },
+    {
+        "id": 8,
+        "tag": "Communication",
+        "text_preview": "Création d'un document promotionnel double A3 pour la marque Von Dutch.",
+        "image": "assets/Productions/Communication/Projet VonDutch/Projet VD.png",
+        "Nom_du_projet": "Catalogue Von Dutch",
+        "description": "Ce projet universitaire avait pour but de créer un catalogue promotionnel pour la marque Von Dutch. Il m'a appris à respecter des contraintes propres au format A3 pour impression, en termes de mise en page et de hiérarchie de l'information.",
+        "logiciels": [
+            "Adobe Photoshop",
+            "Adobe InDesign"
+        ],
+        "annee": "2025"
+    },
+    {
+        "id": 9,
+        "tag": "Communication",
+        "text_preview": "Affiche promotionnelle pour l'exposition 'Miroir' du Musée d'Arts Modernes de Paris.",
+        "image": "assets/Productions/Communication/miroir horizontal.jpg",
+        "Nom_du_projet": "Exposition 'Miroir'",
+        "description": "Ce projet universitaire fictif visait à créer une affiche pour l'exposition 'Miroir' du Musée d'Arts Modernes de Paris. Il m'a permis de travailler sur la hiérarchie de l'information et sur la mise en page d'un document promotionnel.",
+        "logiciels": [
+            "Adobe Photoshop",
+            "Adobe Illustrator"
+        ],
+        "annee": "2025",
+        "galerie": [
+            {
+                "src": "assets/Productions/Communication/miroir vertical.jpg",
+                "caption": "Affiche format vertical"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "tag": "Audiovisuel",
+        "text_preview": "Photos des cascades du Hérisson dans le Jura",
+        "image": "assets/Productions/Audiovisuel/Cascade du hérisson.jpg",
+        "Nom_du_projet": "Les Cascades du Hérisson",
+        "description": "Ces photos ont été prises lors de mon séjour dans le Jura, au mois d'août 2025.",
+        "logiciel": [
+            "Adobe Photoshop"
+        ],
+        "annee": "2025",
+        "galerie": [
+            {
+                "src": "assets/Productions/Audiovisuel/Cascade_2.jpg",
+                "caption": "Photo annexe"
+            },
+            {
+                "src": "assets/Productions/Audiovisuel/Cascade_3.jpg",
+                "caption": "Photo annexe"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "tag": [
+            "Communication",
+            "Web"
+        ],
+        "text_preview": "Création de l'identité visuelle et des supports de communication pour le site de reggae JamYard.",
+        "image": "assets/Productions/Projets web/JamYard/Jam Yard.png",
+        "Nom_du_projet": "JamYard",
+        "description": "Ce projet, réalisé sur 48 heures, m'a permis de travailler sur l'identité complète d'un site fictif reflétant la culture reggae. Il a été très formateur par la diversité des tâches à effectuer. J'ai pu rédiger des articles pour les fans (fictifs) et créer une charte graphique cohérente et impactante en plus d'une animation du logotype. J'ai aussi pu tourner une interview exclusivement en anglais pour illustrer le projet",
+        "logiciels": [
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "Adobe After Effects"
+        ],
+        "annee": "2025",
+        "galerie": [
+            {
+                "src": "assets/Productions/Projets Web/JamYard/Anim logo.mp4",
+                "caption": "Animation du logotype"
+            },
+            {
+                "src": "assets/Productions/Projets Web/JamYard/Couleurs JY.png",
+                "caption": "Couleurs de la charte graphique"
+            },
+            {
+                "src": "assets/Productions/Projets Web/JamYard/Fonts JY.png",
+                "caption": "Typographies de la charte graphique"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "tag": "Web",
+        "text_preview": "Refonte du site web Harmony Forme.",
+        "image": "assets/Productions/Projets Web/Harmony forme/Landing Page.png",
+        "Nom_du_projet": "Harmony Forme",
+        "description": "Ce projet universitaire fictif avait pour but la refonte partielle d'un site web existant de notre choix. Nous avons choisi le site web de la salle de sport Harmony Forme, afin de lui donner un aspect plus moderne, attractif, mais surtout intuitif pour les nouveaux usagers. Ce projet a été très important pour consolider mes coonnaissances en UX design.",
+        "logiciels": [
+            "Figma"
+        ],
+        "annee": "2025",
+        "galerie": [
+            {
+                "src": "assets/Productions/Projets Web/Harmony forme/Centres.png",
+                "caption": "Centres sportifs"
+            },
+            {
+                "src": "assets/Productions/Projets Web/Harmony forme/Contact.png",
+                "caption": "Page 'Contact'"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "tag": "Web",
+        "text_preview": "Création d'une page de vente fictive pour du matériel de ski.",
+        "image": "assets/Productions/Projets web/snowride/Snowride.jpg",
+        "Nom_du_projet": "Snowride",
+        "description": "Ce projet universitaire fictif m'a permis de renforcer mes compétences en intégration web et en design d'interface au travers d'une page de vente d'équipements de ski.",
+        "logiciel": [
+            "Visual Studio Code"
+        ],
+        "annee": "2024",
+        "galerie": [
+            {
+                "src": "assets/Productions/Projets Web/snowride/Cool.png",
+                "caption": "Infos"
+            },
+            {
+                "src": "assets/Productions/Projets Web/snowride/Produits.png",
+                "caption": "Section 'Produits'"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "tag": "Web",
+        "text_preview": "Reproduction d'une version fonctionnelle d'Instagram, façon MMI.",
+        "image": "assets/Productions/Projets Web/INSTAGRAM ACCUEIL.jpg",
+        "Nom_du_projet": "Instagram MMI",
+        "description": "Ce projet universitaire fictif m'a permis de renforcer mes compétences en développement et en intégration web afin de rendre une interface 'belle' et fonctionnelle.",
+        "logiciel": [
+            "Visual Studio Code"
+        ],
+        "annee": "2024",
+        "galerie": [
+            {
+                "src": "assets/Productions/Projets Web/Instagram page partagez.jpg",
+                "caption": "Page 'Partagez'"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "tag": "Audiovisuel",
+        "text_preview": "Animation pour un stream twitch.",
+        "image": "assets/Productions/Audiovisuel/BgTorch.mp4",
+        "Nom_du_projet": "Stream Twitch",
+        "description": "Ce projet est un projet personnel réalisé pour un ami afin d'illustrer son stream sur la plateforme Twitch.",
+        "logiciel": [
+            "Adobe After Effects"
+        ],
+        "annee": "2026",
+        "galerie": [
+            {
+                "src": "assets/Productions/Audiovisuel/TransitionTorch.mp4",
+                "caption": "Transition"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "tag": "Audiovisuel",
+        "text_preview": "Animation pour un stream twitch.",
+        "image": "assets/Productions/Audiovisuel/BgFlott.mp4",
+        "Nom_du_projet": "Stream Twitch",
+        "description": "Ce projet est un projet personnel réalisé pour un ami afin d'illustrer son stream sur la plateforme Twitch.",
+        "logiciel": [
+            "Adobe After Effects"
+        ],
+        "annee": "2026",
+        "galerie": [
+            {
+                "src": "assets/Productions/Audiovisuel/TransitionFlott.mp4",
+                "caption": "Transition"
+            }
+        ]
+    }
+]

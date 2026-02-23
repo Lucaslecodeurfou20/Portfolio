@@ -1,0 +1,433 @@
+
+/* GENERAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+}
+
+/* LA FLECHE SUR LES LIENS A*/
+.arrow::after {
+  content: "\ebe6";
+  font-family: boxicons!important;
+  font-weight: 400;
+  font-size: 1.6rem;
+  vertical-align: middle;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* QUELQUES REMARQUES :
+
+les couleurs :
+bleu (liens) : rgb(0,150,255);
+bleu (overlay) : rgba(0,78,255,0.4);
+gris foncé (product-brand) : color:darkgrey;
+
+le logo : font-family: 'Orbitron', sans-serif;
+l'effet d'ombrage sur les images tendances : box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+C'EST PARTI !!!!
+
+
+
+*/
+
+
+/* LE HEADER */
+
+.header {
+  background-image: url(../images/bg-header.jpg);
+  background-size: cover;
+}
+
+.header nav {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+#burger {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.products-menu {
+  flex-grow: 1;
+}
+
+.products-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.8 rem;
+  text-transform: uppercase;
+  margin: 0px 10px;
+}
+
+.logo {
+  font-family: orbitron;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 5px;
+  font-size: 1.6rem;
+  text-transform: lowercase;
+  font-style: italic;
+  font-weight: 300;
+  margin-right: 10px;
+}
+
+.user-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.banner {
+  display: flex;
+}
+
+.banner > .banner-intro, .banner > a {
+  flex-basis: 50%;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-intro h2 {
+  font-size: 4rem;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 100;
+}
+
+.banner-intro span {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: rgb(240, 240, 240);
+  font-weight: 100;
+  padding: 25px 0px;
+}
+
+.banner-intro a {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* LES TENDANCES */
+
+.tendance-item{
+  display:flex;
+  position: relative;
+  margin: 40px 0px;
+}
+
+.tendance-txt, .tendance-img{
+  flex-basis: 50%;
+}
+
+.tendance-img img{
+  width: 100%
+}
+
+.tendance-txt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  padding: 0px 6%;
+}
+
+.tendance-txt a{
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: rgb(25, 124, 245);
+  text-transform: uppercase;
+}
+
+.tendance-txt p{
+  font-size: 1rem;
+  padding-bottom: 3%;
+  line-height: 2;
+}
+
+.tendance-txt h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-bottom: 3%;
+}
+
+.tendance-item > a{
+  background-color: rgb(25, 124, 245);
+  color: white;
+  transform: translate(-50%,50%);
+  text-decoration: none;
+  width: 45px;
+  aspect-ratio: 1 / 1;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tendance-reverse{
+  flex-direction: row-reverse;
+}
+
+/* LES PRODUITS */
+
+.products > h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.products > a{
+  display: block;
+  width: fit-content;
+  margin: 0px auto;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  justify-content: space-around;
+}
+
+.product {
+  flex-basis: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.product:hover{
+  border: solid 1px grey;
+  box-shadow: 0px 10px 20px rgb(63, 63, 109);
+}
+
+.product img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  padding-top: 50px;
+}
+
+.product-brand {
+  font-size: 0.7rem;
+  color: lightgrey;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+.product-title {
+  font-size: 0.9rem;
+  color: black;
+  text-transform: uppercase ;
+  padding: 0px 40px;
+  flex-grow: 1;
+}
+
+.product-price {
+  font-size: 0.7rem;
+  color: rgb(53, 181, 255);
+  font-weight: bold;
+}
+
+.boutonVoirTousLesProduits {
+  background-color: rgb(53, 181, 255);
+  color: white;
+  padding: 15px 40px;
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  }
+
+/* AVANTAGE CLUB */
+
+.adventure {
+  margin-top: 40px;
+  padding: 90px 0px;
+  background-image: linear-gradient(rgba(0,78,255,0.3), rgba(0,78,255,0.5)), url(../images/bg-advantage.jpg);
+  background-size: cover;
+}
+
+.adventure-info{
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.adventure-info h2 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.adventure-info p{
+  text-align: center;
+  font-size: 0.8rem;
+  color: white;
+  padding: 0px 145px;
+  line-height: 1.5;
+}
+
+.adventure-info > a {
+  text-decoration: none;
+  font-size: 1rem;
+  color:white;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+/* LA NEWSLETTER */
+
+.newsletter {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter p {
+  font-size: 1rem;
+  text-align: center;
+  padding: 0px 130px;
+  padding-bottom: 20px;
+}
+
+.newsletter form {
+  align-self: stretch;
+  display: flex;
+  margin-bottom: 60px;
+}
+
+form input[type=email] {
+  flex-grow: 1;
+  padding: 10px 10px;
+  border-color: lightgrey;
+  margin-right: 20px;
+  margin-left: 70px; 
+  font-size: 0.8rem;
+}
+
+form input[type=submit] {
+  background-color: rgb(25, 124, 245);
+  color: white;
+  padding: 0px 40px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  border: none;
+}
+
+.newsletter h2 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+/* LE FOOTER */
+
+footer {
+  border-top: 1px solid black;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.logo2{
+  color: black;
+  font-family: orbitron;
+  text-decoration: none;
+  letter-spacing: 5px;
+  font-size: 0.8rem;
+  text-transform: lowercase;
+  font-style: italic;
+  font-weight: 300;
+}
+
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 50%;
+  }
+
+  .product {
+    flex-basis: 45%;
+  }
+
+  .tendance-item {
+    flex-direction: column;
+  }
+
+  nav.menu {
+    padding: 0;
+  }
+
+  .banner > a {
+    display: none;
+  }
+  .banner > .banner-intro {
+    flex-basis: 100%;
+    align-items: center;
+  }
+
+  .menu {
+    position: relative;
+  }
+  
+  .products-menu{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+    transform: scaleY(1);
+    transform-origin: 50% 0;
+    transition: transform 3s;
+  }
+
+  
+
+}

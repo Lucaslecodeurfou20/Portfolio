@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes productions - Portfolio Lucas Porcaro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="glass">
+        <div class="logo">
+            <a href="index.html"><img src="img/logo/Fichier_5.svg" alt="Lucas Porcaro" class="nav-logo"></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="a_propos.html">À propos</a></li>
+            <li><a href="productions.html" class="active">Mes productions</a></li>
+            <li><a href="contact.html">Me contacter</a></li>
+        </ul>
+        <div class="burger-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="work">
+            <h2 style="text-align: center; color: var(--color-accent); margin-bottom: 3rem;">Mes productions</h2>
+
+            <div class="filter-container">
+                <input type="text" id="projectSearch" placeholder="Rechercher un projet..." class="search-input">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Tous</button>
+                    <button class="filter-btn" data-filter="Communication">Communication</button>
+                    <button class="filter-btn" data-filter="Web">Web</button>
+                    <button class="filter-btn" data-filter="Audiovisuel">Audiovisuel</button>
+                </div>
+            </div>
+
+            <div id="projectsGrid" class="productions-grid" style="margin-top: 2rem;">
+
+            </div>
+
+            <div id="paginationContainer" class="pagination-container"></div>
+        </section>
+    </main>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="a_propos.html">À propos</a></li>
+                    <li><a href="productions.html">Mes productions</a></li>
+                    <li><a href="contact.html">Me contacter</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p><a href="https://www.google.fr/maps/place/Lens/@50.4395354,2.7984972,14z/data=!3m1!4b1!4m6!3m5!1s0x47dd305f6f4ca1b9:0x40af13e8163e670!8m2!3d50.42893!4d2.83183!16zL20vMDFqZHFy?entry=ttu&g_ep=EgoyMDI2MDEwNy4wIKXMDSoASAFQAw%3D%3D"
+                        target="_blank">Lens - 62300, France</a></p>
+                <div class="contact-row">
+                    <p>lucasporcaro62@gmail.com</p>
+                    <button class="copy-btn" data-copy="lucasporcaro62@gmail.com" title="Copier l'email"><i
+                            class="fa-regular fa-copy"></i></button>
+                </div>
+                <div class="contact-row">
+                    <p>06 20 21 20 51</p>
+                    <button class="copy-btn" data-copy="0620212051" title="Copier le numéro"><i
+                            class="fa-regular fa-copy"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Lucas Porcaro. Tous droits réservés.</p>
+            <div class="footer-icons" style="font-size: 1.2rem;">
+                <a href="https://www.instagram.com/lucxs_pcr/" target="_blank" style="margin-right: 10px;"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/lucas-porcaro-8b2a142b9/" target="_blank"
+                    style="margin-right: 10px;"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
